@@ -1,0 +1,17 @@
+.background-banner {
+  background-image: url("../../images/banner-3.jpg"),
+    linear-gradient(rgba(3, 3, 3, 0.5), rgba(0, 0, 0, 0.5));
+  height: 480px;
+  width: 100%;
+
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 59px;
+}

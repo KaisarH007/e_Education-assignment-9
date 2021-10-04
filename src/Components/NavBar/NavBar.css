@@ -1,0 +1,17 @@
+.nav-bacground {
+  background-color: rgba(230, 235, 234, 0.904);
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(10, 1, 1);
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-items:hover {
+  color: rgb(9, 80, 231);
+}
