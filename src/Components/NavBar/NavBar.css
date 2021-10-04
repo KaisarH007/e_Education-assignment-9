@@ -13,5 +13,8 @@
   text-decoration: none;
 }
 .nav-items:hover {
-  color: rgb(9, 80, 231);
+  color: rgb(255, 255, 255);
+  background-color: rgb(14, 29, 241);
+  border-radius: 10px;
+  padding: 5px, 5px;
 }

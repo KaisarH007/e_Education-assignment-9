@@ -1,6 +1,11 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faMailBulk } from "@fortawesome/free-solid-svg-icons";
+
+const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
+const mailIcon = <FontAwesomeIcon icon={faMailBulk} />;
 
 const Footer = () => {
   return (
@@ -8,11 +13,13 @@ const Footer = () => {
       <div className="container">
         <div className="row p-4">
           <div className="col-md-4">
-            <h3>course details</h3>
+            <h3>E_Education</h3>
             <p className="text-muted">
               Great lesson ideas and lesson plans for ESL teachers! Educators
               can customize lesson plans to best.
             </p>
+            <small>{phoneIcon} +9714 3453033</small> <br />
+            <small>{mailIcon} e_education@gmail.com</small>
           </div>
           <div className="col-md-2 text-center">
             <h5>Company</h5>
