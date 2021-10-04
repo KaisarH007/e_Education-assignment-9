@@ -1,22 +1,24 @@
 import React from "react";
 import "./NavBar.css";
 import logo from "../../images/logo.png";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="nav-bacground">
-      <div className="container ">
+      <div className=" ">
         <div className="row">
           <div className="col-md-2">
-            <div className="logo-img">
-              <img className="w-75" src={logo} alt="" />
+            <div className="d-flex">
+              <img className="w-75 pb-2" src={logo} alt="" />
+              <div>
+                <h3 className="mt-4 pt-4 fw-bold">E_Education</h3>
+              </div>
             </div>
           </div>
           <div className="col-md-10">
             <div>
-              <ul className="d-flex align-items-end justify-content-end mt-3">
+              <ul className="d-flex align-items-end justify-content-end mt-4 pt-2">
                 <Link to="/home" className="nav-items">
                   <li>Home</li>
                 </Link>

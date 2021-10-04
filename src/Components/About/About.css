@@ -1,9 +1,8 @@
-.background-banner {
-  background-image: url("../../images/banner-3.jpg"),
-    linear-gradient(rgba(3, 3, 3, 0.5), rgba(0, 0, 0, 0.5));
-  height: 400px;
+.about-banner {
+  background-image: url("../../images/banner-2.jpg"),
+    linear-gradient(rgba(3, 3, 3, 0.5), rgba(0, 0, 0, 0.596));
+  height: 250px;
   width: 100%;
-
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;

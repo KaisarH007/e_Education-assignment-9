@@ -10,7 +10,7 @@ const Services = () => {
       .then((data) => setCourses(data));
   }, []);
   return (
-    <div>
+    <div className="container">
       <Row xs={1} md={3} className="g-4 mt-4">
         {courses.map((course) => (
           <Col>
