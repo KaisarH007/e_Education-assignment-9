@@ -1,7 +1,7 @@
 # Welcome to my GitHub Project
 
 This is my live website link
-[click to visit website](https://e-education-kaisar.netlify.app/).
+[click to visit E_Education](https://e-education-kaisar.netlify.app/).
 
 ## My Website Feature
 
