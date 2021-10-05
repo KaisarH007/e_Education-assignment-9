@@ -54,5 +54,12 @@
     "img": "http://risewithsujan.com/wp-content/uploads/2020/01/SELF-2.jpg",
     "description": "You will learn how to be more confident, happier, productive and sucessful.",
     "id": 8
+  },
+  {
+    "titel": "Art",
+    "price": 100,
+    "img": "https://3.imimg.com/data3/MP/FW/GLADMIN-12590218/aa-500x500.png",
+    "description": "Uncover your creativity at home with online arts and crafts courses today.",
+    "id": 9
   }
 ]

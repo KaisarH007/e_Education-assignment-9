@@ -6,6 +6,7 @@ import {
   faMailBulk,
   faSearchLocation,
 } from "@fortawesome/free-solid-svg-icons";
+import socialIcon from "../../images/icon2.png";
 
 const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
 const mailIcon = <FontAwesomeIcon icon={faMailBulk} />;
@@ -25,6 +26,9 @@ const Contact = () => {
             Google Map location
           </p>
         </address>
+        <div>
+          <img src={socialIcon} alt="" />
+        </div>
       </div>
     </div>
   );

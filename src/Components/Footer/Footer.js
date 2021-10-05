@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import icon from "../../images/icon2.png";
 
 const phoneIcon = <FontAwesomeIcon icon={faPhone} />;
 const mailIcon = <FontAwesomeIcon icon={faMailBulk} />;
@@ -19,7 +20,8 @@ const Footer = () => {
               can customize lesson plans to best.
             </p>
             <small>{phoneIcon} +9714 3453033</small> <br />
-            <small>{mailIcon} e_education@gmail.com</small>
+            <small>{mailIcon} e_education@gmail.com</small> <br />
+            <img style={{ width: "130px" }} src={icon} alt="" />
           </div>
           <div className="col-md-2 text-center">
             <h5>Company</h5>
@@ -59,6 +61,10 @@ const Footer = () => {
             </p>
           </div>
         </div>
+      </div>
+      <hr />
+      <div className="text-center text-muted p-2">
+        <p>&copy; 2021 E_Education. All rights reserved</p>
       </div>
     </div>
   );
